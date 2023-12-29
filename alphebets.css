@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: gold;
+    -webkit-text-stroke: 2px black;
+}
+.div1{
+    text-align: center;
+    left: 20%;
+    right: 60%;
+    position: absolute;
+    border: 5px solid black;
+}
+h2{
+    font-size: 70px;  
+    font-weight: bolder;
+}
+h3{
+    font-size: 40px; 
+}
+.img{
+    height: 200px;
+}
+.div2{
+    text-align: center;
+    left: 60%;
+    right: 20%;
+    position: absolute;
+    border: 5px solid black;
+}

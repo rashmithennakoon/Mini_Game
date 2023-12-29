@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+    <script src="maths15.js" type="text/JavaScript"></script>
+    <div id="timer"></div>
+        <h1>Solve Problems</h1>
+        <h2 id="te" style="color:red;">*Submit Your Answers before last 5 seconds. Otherwise You got 0 Marks</h2><br><br>
+        <form id="problemForm" onsubmit="return false;" method="POST">
+            <label for="user" id="name1" class="lb">((15+23-12)*31-34)*11</label>
+            <input type='text' name='name' id="nam1" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(75-23-8)/11*17-48+102</label>
+            <input type='text' name='name' id="nam2" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(125/5-11)7+45*31-(123*38/19)</label>
+            <input type='text' name='name' id="nam3" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(14*3+15)/57+31*63-231</label>
+            <input type='text' name='name' id="nam4" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(57/3+6-8)*29-102+43*21</label>
+            <input type='text' name='name' id="nam5" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(17*6+16)*2-142+87</label>
+            <input type='text' name='name' id="nam6" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(15/3+196/14+26-31)*56+456</label>
+            <input type='text' name='name' id="nam7" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">((15+18)*3+21-17)-56+129</label>
+            <input type='text' name='name' id="nam8" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(75/3*7+37-23)*2-183</label>
+            <input type='text' name='name' id="nam9" class="bo" required/><br><br><br><br>
+            <label for="user" id="name1" class="lb">(23*4+56-41)*3+21*32-192</label>
+            <input type='text' name='name' id="nam10" class="bo" required/><br><br><br><br>
+            <button type="button" id = "submit" onclick="checkAnswers()">Submit</button>
+        </form>
+        <div id="result"></div>
+</body>
+</html>

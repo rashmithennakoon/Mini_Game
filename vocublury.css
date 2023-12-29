@@ -1,0 +1,50 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.div1{
+    text-align: center;
+    left: 20%;
+    right: 60%;
+    position: absolute;
+    border: 5px solid black;
+    background-color: white;
+}
+.img{
+    height: 200px;
+}
+.div2{
+    text-align: center;
+    left: 60%;
+    right: 20%;
+    position: absolute;
+    border: 5px solid black;
+    background-color: white;
+}
+#te{
+    text-align: center;
+}
+.bo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+#submit{
+    font-size: 20px;
+    left: 45%;
+    top: 960%;
+    position: absolute;
+}
+#timer {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 50px;
+}
+#result {
+    top: 50%;
+    left: 20%;
+    position: absolute;
+    font-size: 80px;
+}
+body{
+    background-color: #FFFFC2;
+}

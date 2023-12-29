@@ -1,0 +1,43 @@
+#top{
+    text-align: center;
+    font-size: 60px;
+}
+#div1{
+    top: 30%;
+    position: absolute;
+    background-color: #F660AB;
+}
+#div2{
+    top: 50%;
+    position: absolute;
+    background-color: #98FB98;
+}
+#div3{
+    top: 70%;
+    position: absolute;
+    background-color: #00BFFF;
+}
+.divv{
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+    border: 5px solid black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.img{
+    height: 500px;
+}
+#img2{
+    top: 5%;
+    left: 5%;
+    position: absolute;
+}
+#img1{
+    top: 16%;
+    right: 3%;
+    position: absolute;
+}

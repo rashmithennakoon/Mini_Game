@@ -1,0 +1,33 @@
+.img{
+    height: 600px;
+}
+#img1{
+    top: 15%;
+    right: 15%;
+    position: absolute;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+#div1{
+    top: 35%;
+    position: absolute;
+    background-color: #F9B7FF;
+}
+#div2{
+    top: 65%;
+    position: absolute;
+    background-color: #F67280;
+}
+.divv{
+    text-align: center;
+    left: 40%;
+    right: 40%;
+    position: absolute;
+    border: 5px solid black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
